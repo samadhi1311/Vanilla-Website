@@ -1,0 +1,16 @@
+{
+	"name": "vanilla-website",
+	"version": "1.0.0",
+	"description": "Example Pracel Website",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx parcel src/index.html --port 1208 --open",
+		"build": "npx parcel build src/index.html --dist-dir ./docs --public-url https://sithruby.github.io/vanilla-website/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.11.0"
+	}
+}
